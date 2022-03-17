@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topology>
+
+   <node id="40" listenPort="7633" name="s40-Austria" type="1" reliability="0.99"  region="0" regionRisk="1"></node>
+   <node id="1" listenPort="7634" name="s1-Belgium" type="1" reliability="0.99"  region="0" regionRisk="1"></node>
+   <node id="2" listenPort="7635" name="s2-Bulgaria" type="1" reliability="0.99"  region="0" regionRisk="1"></node>
+   <node id="3" listenPort="7636" name="s3-Switzerland" type="1" reliability="0.99"  region="0" regionRisk="1"></node>
+   <node id="4" listenPort="7637" name="s4-Cyprus" type="1" reliability="0.99"  region="0" regionRisk="1"></node>
+   <node id="5" listenPort="7638" name="s5-CzechRepublic" type="1" reliability="0.99"  region="0" regionRisk="1"></node>
+   <node id="6" listenPort="7639" name="s6-Germany" type="1" reliability="0.99"  region="0" regionRisk="1"></node>
+   <node id="7" listenPort="7639" name="s7-Denmark" type="1" reliability="0.99"  region="0" regionRisk="1"></node>
+   <node id="8" listenPort="7639" name="s8-Estonia" type="1" reliability="0.99"  region="0" regionRisk="1"></node>
+   <node id="9" listenPort="7639" name="s9-Spain" type="1" reliability="0.99"  region="0" regionRisk="1"></node>
+   <node id="10" listenPort="7639" name="s10-Finland" type="1" reliability="0.99"  region="0" regionRisk="1"></node>
+   <node id="11" listenPort="7634" name="s11-France" type="1" reliability="0.99"  region="0" regionRisk="1"></node>
+   <node id="12" listenPort="7635" name="s12-Greece" type="1" reliability="0.99"  region="0" regionRisk="1"></node>
+   <node id="13" listenPort="7636" name="s13-Croatia" type="1" reliability="0.99"  region="0" regionRisk="1"></node>
+   <node id="14" listenPort="7637" name="s14-Hungary" type="1" reliability="0.99"  region="0" regionRisk="1"></node>
+   <node id="15" listenPort="7638" name="s15-Ireland" type="1" reliability="0.99"  region="0" regionRisk="1"></node>
+   <node id="16" listenPort="7639" name="s16-Israel" type="1" reliability="0.99"  region="0" regionRisk="1"></node>
+   <node id="17" listenPort="7639" name="s17-Iceland" type="1" reliability="0.99"  region="0" regionRisk="1"></node>
+   <node id="18" listenPort="7639" name="s18-Italy" type="1" reliability="0.99"  region="0" regionRisk="1"></node>
+   <node id="19" listenPort="7639" name="s19-Lithuania" type="1" reliability="0.99"  region="0" regionRisk="1"></node>
+   <node id="20" listenPort="7639" name="s20-Luxembourg" type="1" reliability="0.99"  region="0" regionRisk="1"></node>
+   <node id="21" listenPort="7634" name="s21-Latvia" type="1" reliability="0.99"  region="0" regionRisk="1"></node>
+   <node id="22" listenPort="7635" name="s22-Montenegro" type="1" reliability="0.99"  region="0" regionRisk="1"></node>
+   <node id="23" listenPort="7636" name="s23-Macedonia" type="1" reliability="0.99"  region="0" regionRisk="1"></node>
+   <node id="24" listenPort="7637" name="s24-Malta" type="1" reliability="0.99"  region="0" regionRisk="1"></node>
+   <node id="25" listenPort="7638" name="s25-Netherland" type="1" reliability="0.99"  region="0" regionRisk="1"></node>
+   <node id="26" listenPort="7639" name="s26-Norway" type="1" reliability="0.99"  region="0" regionRisk="1"></node>
+   <node id="27" listenPort="7639" name="s27-Poland" type="1" reliability="0.99"  region="0" regionRisk="1"></node>
+   <node id="28" listenPort="7639" name="s28-Portugal" type="1" reliability="0.99"  region="0" regionRisk="1"></node>
+   <node id="29" listenPort="7639" name="s29-Romania" type="1" reliability="0.99"  region="0" regionRisk="1"></node>
+   <node id="30" listenPort="7633" name="s30-Serbia" type="1" reliability="0.99"  region="0" regionRisk="1"></node>
+   <node id="31" listenPort="7634" name="s31-Belarus" type="1" reliability="0.99"  region="0" regionRisk="1"></node>
+   <node id="32" listenPort="7635" name="s32-Russia" type="1" reliability="0.99"  region="0" regionRisk="1"></node>
+   <node id="33" listenPort="7636" name="s33-Sweden" type="1" reliability="0.99"  region="0" regionRisk="1"></node>
+   <node id="34" listenPort="7637" name="s34-Slovenia" type="1" reliability="0.99"  region="0" regionRisk="1"></node>
+   <node id="35" listenPort="7638" name="s35-Moldova" type="1" reliability="0.99"  region="0" regionRisk="1"></node>
+   <node id="36" listenPort="7639" name="s36-Slovakia" type="1" reliability="0.99"  region="0" regionRisk="1"></node>
+   <node id="37" listenPort="7636" name="s37-Turkey" type="1" reliability="0.99"  region="0" regionRisk="1"></node>
+   <node id="38" listenPort="7637" name="s38-UnitedKingdom" type="1" reliability="0.99"  region="0" regionRisk="1"></node>
+   <node id="39" listenPort="7638" name="s39-Ukraine" type="1" reliability="0.99"  region="0" regionRisk="1"></node>
+
+   <link from="10" to="33" bw="200" reliability="0.99"  region="0" regionRisk="1"></link>
+   <link from="26" to="33" bw="200" reliability="0.99"  region="0" regionRisk="1"></link>
+   <link from="7" to="26" bw="200" reliability="0.99"  region="0" regionRisk="1"></link>
+   <link from="7" to="33" bw="200" reliability="0.99"  region="0" regionRisk="1"></link>
+   <link from="7" to="32" bw="200" reliability="0.99"  region="0" regionRisk="1"></link>
+   <link from="7" to="8" bw="200" reliability="0.99"  region="0" regionRisk="1"></link>
+   <link from="8" to="21" bw="200" reliability="0.99"  region="0" regionRisk="1"></link>
+   <link from="19" to="21" bw="200" reliability="0.99"  region="0" regionRisk="1"></link>
+   <link from="7" to="17" bw="200" reliability="0.99"  region="0" regionRisk="1"></link>
+   <link from="17" to="38" bw="200" reliability="0.99"  region="0" regionRisk="1"></link>
+   <link from="15" to="38" bw="200" reliability="0.99"  region="0" regionRisk="1"></link>
+   <link from="4" to="38" bw="200" reliability="0.99"  region="0" regionRisk="1"></link>
+   <link from="1" to="38" bw="200" reliability="0.99"  region="0" regionRisk="1"></link>
+   <link from="11" to="38" bw="200" reliability="0.99"  region="0" regionRisk="1"></link>
+   <link from="28" to="38" bw="200" reliability="0.99"  region="0" regionRisk="1"></link>
+   <link from="16" to="38" bw="200" reliability="0.99"  region="0" regionRisk="1"></link>
+   <link from="1" to="25" bw="200" reliability="0.99"  region="0" regionRisk="1"></link>
+   <link from="7" to="25" bw="200" reliability="0.99"  region="0" regionRisk="1"></link>
+   <link from="6" to="7" bw="200" reliability="0.99"  region="0" regionRisk="1"></link>
+   <link from="19" to="27" bw="200" reliability="0.99"  region="0" regionRisk="1"></link>
+   <link from="6" to="25" bw="200" reliability="0.99"  region="0" regionRisk="1"></link>
+   <link from="6" to="27" bw="200" reliability="0.99"  region="0" regionRisk="1"></link>
+   <link from="4" to="6" bw="200" reliability="0.99"  region="0" regionRisk="1"></link>
+   <link from="27" to="31" bw="200" reliability="0.99"  region="0" regionRisk="1"></link>
+   <link from="27" to="39" bw="200" reliability="0.99"  region="0" regionRisk="1"></link>
+   <link from="5" to="27" bw="200" reliability="0.99"  region="0" regionRisk="1"></link>
+   <link from="5" to="6" bw="200" reliability="0.99"  region="0" regionRisk="1"></link>
+   <link from="5" to="36" bw="200" reliability="0.99"  region="0" regionRisk="1"></link>
+   <link from="14" to="36" bw="200" reliability="0.99"  region="0" regionRisk="1"></link>
+   <link from="40" to="36" bw="200" reliability="0.99"  region="0" regionRisk="1"></link>
+   <link from="6" to="32" bw="200" reliability="0.99"  region="0" regionRisk="1"></link>
+   <link from="40" to="6" bw="200" reliability="0.99"  region="0" regionRisk="1"></link>
+   <link from="6" to="16" bw="200" reliability="0.99"  region="0" regionRisk="1"></link>
+   <link from="6" to="20" bw="200" reliability="0.99"  region="0" regionRisk="1"></link>
+   <link from="3" to="6" bw="200" reliability="0.99"  region="0" regionRisk="1"></link>
+   <link from="3" to="18" bw="200" reliability="0.99"  region="0" regionRisk="1"></link>
+   <link from="3" to="11" bw="200" reliability="0.99"  region="0" regionRisk="1"></link>
+   <link from="11" to="20" bw="200" reliability="0.99"  region="0" regionRisk="1"></link>
+   <link from="9" to="11" bw="200" reliability="0.99"  region="0" regionRisk="1"></link>
+   <link from="9" to="28" bw="200" reliability="0.99"  region="0" regionRisk="1"></link>
+   <link from="3" to="9" bw="200" reliability="0.99"  region="0" regionRisk="1"></link>
+   <link from="9" to="18" bw="200" reliability="0.99"  region="0" regionRisk="1"></link>
+   <link from="18" to="24" bw="200" reliability="0.99"  region="0" regionRisk="1"></link>
+   <link from="40" to="34" bw="200" reliability="0.99"  region="0" regionRisk="1"></link>
+   <link from="40" to="18" bw="200" reliability="0.99"  region="0" regionRisk="1"></link>
+   <link from="12" to="18" bw="200" reliability="0.99"  region="0" regionRisk="1"></link>
+   <link from="13" to="34" bw="200" reliability="0.99"  region="0" regionRisk="1"></link>
+   <link from="13" to="14" bw="200" reliability="0.99"  region="0" regionRisk="1"></link>
+   <link from="13" to="22" bw="200" reliability="0.99"  region="0" regionRisk="1"></link>
+   <link from="14" to="30" bw="200" reliability="0.99"  region="0" regionRisk="1"></link>
+   <link from="40" to="12" bw="200" reliability="0.99"  region="0" regionRisk="1"></link>
+   <link from="29" to="35" bw="200" reliability="0.99"  region="0" regionRisk="1"></link>
+   <link from="29" to="37" bw="200" reliability="0.99"  region="0" regionRisk="1"></link>
+   <link from="14" to="29" bw="200" reliability="0.99"  region="0" regionRisk="1"></link>
+   <link from="2" to="14" bw="200" reliability="0.99"  region="0" regionRisk="1"></link>
+   <link from="2" to="29" bw="200" reliability="0.99"  region="0" regionRisk="1"></link>
+   <link from="2" to="23" bw="200" reliability="0.99"  region="0" regionRisk="1"></link>
+   <link from="2" to="37" bw="200" reliability="0.99"  region="0" regionRisk="1"></link>
+   <link from="2" to="12" bw="200" reliability="0.99"  region="0" regionRisk="1"></link>
+
+</topology>
